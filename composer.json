@@ -1,0 +1,24 @@
+{
+    "name": "illuminate3/admin",
+    "description": "",
+    "authors": [
+        {
+            "name": "Boy Hagemann",
+            "email": "boy@swis.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x",
+		"illuminate3/matcher": "dev-master",
+		"illuminate3/crud": "dev-master",
+		"illuminate3/navigation": "dev-master",
+		"illuminate3/user": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate3\\Admin": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
